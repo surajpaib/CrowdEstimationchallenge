@@ -37,6 +37,8 @@ Possible Preprocessing:
 ## Improvements
 
 Take each parameter of the SimpleBlobDetector as the possible output of a ML Model.
-Keypoint information is the input to the model. Keypoints can be manually marked on multiple images and parameters for the blob can be reverse-engineered and used as training data for the model.
-Given a new image, desired parameters can be deduced by the ML model.  
+Binary image information is the input to the model. Keypoints can be manually marked on multiple images and parameters for the blob can be reverse-engineered and used as training data for the model.
+Given a new binary processed image, desired parameters can be deduced by the ML model.
+
+Advantages: Quick computation due to binary nature of input and only single output for each attribute
 
