@@ -42,3 +42,8 @@ Given a new binary processed image, desired parameters can be deduced by the ML 
 
 Advantages: Quick computation due to binary nature of input and only single output for each attribute
 
+## Directory
+
+crowd_estimator.ipynb - Jupyter notebook containing the code flow.
+functions_lib.py - Python module that contains most of the functions used in a CrowdCounter Class.
+
