@@ -34,3 +34,9 @@ Possible Preprocessing:
  This algorithm would help us get a rough estimate of number of people in an image
 
 
+## Improvements
+
+Take each parameter of the SimpleBlobDetector as the possible output of a ML Model.
+Keypoint information is the input to the model. Keypoints can be manually marked on multiple images and parameters for the blob can be reverse-engineered and used as training data for the model.
+Given a new image, desired parameters can be deduced by the ML model.  
+
