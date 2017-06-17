@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fe1c983-c292-437c-8fc0-b97f0c101232" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blob_detect.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/functions_lib.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BIN1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BIN2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BIN3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DIFF1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DIFF2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DIFF3.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diff1.jpg" afterPath="$PROJECT_DIR$/diff1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crowd_estimator.ipynb" afterPath="$PROJECT_DIR$/crowd_estimator.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions_lib.py" afterPath="$PROJECT_DIR$/functions_lib.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,17 +42,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crowd_estimator.ipynb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="crowd_estimator.ipynb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crowd_estimator.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="6" />
+              <selected id="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bin1.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin1.jpg">
+      <file leaf-file-name="post-morph.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/post-morph.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -67,8 +61,8 @@
       <file leaf-file-name="functions_lib.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions_lib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="156">
+              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -76,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
-              <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,9 +109,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/blob_detect.py" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/functions_lib.py" />
         <option value="$PROJECT_DIR$/crowd_estimator.ipynb" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -438,11 +432,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/post-morph.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img_back.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -463,16 +452,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diff3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blob_detect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -483,28 +462,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crowd_estimator.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="7" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diff3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions_lib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="156">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/bin1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-morph.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowd_estimator.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="18" />
         </state>
       </provider>
     </entry>

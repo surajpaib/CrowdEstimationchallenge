@@ -22,5 +22,5 @@ Possible Preprocessing:
  Parameters are manually set to detect blobs of a certain area, convexity, etc.
 
  This algorithm would help us get a rough estimate of number of people in an image
- 
+
 

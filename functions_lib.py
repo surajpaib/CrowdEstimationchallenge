@@ -22,11 +22,7 @@ class CrowdCounter(object):
         return diff1, diff2, diff3
 
     def high_pass_filtering(self, img):
-            try:
-                im = cv2.imread(img, cv2.IMREAD_GRAYSCALE)
-            except:
-                im = img
-
+            im = cv2.imread(img, cv2.IMREAD_GRAYSCALE)
             f = np.fft.fft2(im)
             fshift = np.fft.fftshift(f)
             rows, cols = im.shape
