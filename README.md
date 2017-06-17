@@ -8,9 +8,12 @@ Objective: Develop an algorithm to count the approximate number of people
 
 
 ## Brainstorming
-### Idea 1:  Create CNN model with labelled segmented people and train over images to recognize people-like features. Shortcomings: 3 training images, even with multiple augmentations, the total number may not exceed more than 4 digits. This will fail to give out satisfactory results
-### Idea 2:  Image processing pipeline + ML Model. Use image pre-processing to separate foreground from background and then use foreground features with Numerical ML Models / Regression to train for the number of people in the image.
-### Idea 3: Use mostly image processing algorithms but use ML to identify parameters of some of these algorithms. Eg: SimpleBlobDetector Parameters. ( Multiple ML models for each attribute)
+### Idea 1:
+Create CNN model with labelled segmented people and train over images to recognize people-like features. Shortcomings: 3 training images, even with multiple augmentations, the total number may not exceed more than 4 digits. This will fail to give out satisfactory results
+### Idea 2:
+Image processing pipeline + ML Model. Use image pre-processing to separate foreground from background and then use foreground features with Numerical ML Models / Regression to train for the number of people in the image.
+### Idea 3:
+Use mostly image processing algorithms but use ML to identify parameters of some of these algorithms. Eg: SimpleBlobDetector Parameters. ( Multiple ML models for each attribute)
 
 
 ## Approach
@@ -44,6 +47,6 @@ Advantages: Quick computation due to binary nature of input and only single outp
 
 ## Directory
 
-> crowd_estimator.ipynb - Jupyter notebook containing the code flow.
-> functions_lib.py - Python module that contains most of the functions used in a CrowdCounter Class.
+> ### crowd_estimator.ipynb - Jupyter notebook containing the code flow.
+> ### functions_lib.py - Python module that contains most of the functions used in a CrowdCounter Class.
 
