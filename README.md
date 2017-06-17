@@ -47,6 +47,8 @@ Advantages: Quick computation due to binary nature of input and only single outp
 
 ## Directory
 
-> ### crowd_estimator.ipynb - Jupyter notebook containing the code flow.
-> ### functions_lib.py - Python module that contains most of the functions used in a CrowdCounter Class.
+> #### crowd_estimator.ipynb
+ Jupyter notebook containing the code flow.
+> #### functions_lib.py
+ Python module that contains most of the functions used in a CrowdCounter Class.
 
